@@ -1,9 +1,10 @@
-name: "Python Container Action Template"
-description: "Get started with Python Container actions"
-author: "Jacob Tomlinson"
+name: "Python Diff checker"
+description: "Parse git diffs"
+author: "SHAKOTN"
 inputs:
   myInput:
     description: "Input to use"
+    required: true
     default: "world"
 outputs:
   myOutput:

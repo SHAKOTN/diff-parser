@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  diff_parser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    command: ["python", "main.py"]
